@@ -8,7 +8,6 @@
   position: relative;
   background-color: #83C5BE;
   min-height: 100vh;
-  min-width: 100vw;
 }
 
 .page-desc {
@@ -41,9 +40,9 @@
 .desc-img {
   max-width: 48rem;
   position: absolute;
-  top: 6vh;
-  left: 40vw;
-  transform: translate(0, 15vh);
+  top: 50%;
+  left: 64vw;
+  transform: translate(-25vw, -50%);
 }
 
 .desc-img img {
@@ -75,4 +74,27 @@ a:hover {
 
 .sign-up-link {
   justify-content: center;
+}
+
+.teachers-section h1 {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 3vh;
+}
+
+.carousel-item img {
+  background: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-top: 3vh;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    filter: invert(100%);
 }
