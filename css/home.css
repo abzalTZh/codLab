@@ -1,0 +1,78 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.head-content {
+  position: relative;
+  background-color: #83C5BE;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.page-desc {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 32vw;
+  transform: translate(-25vw, -50%);
+}
+
+.page-desc {
+  max-width: 24rem;
+}
+
+.page-desc img {
+  width: 18rem;
+}
+
+.page-desc h2 {
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.navbar-brand img {
+  height: 3.5rem;
+  padding-left: 30px;
+  padding-right: 7px;
+}
+
+.desc-img {
+  max-width: 48rem;
+  position: absolute;
+  top: 6vh;
+  left: 40vw;
+  transform: translate(0, 15vh);
+}
+
+.desc-img img {
+  max-width: 50rem;
+  min-width: 15rem;
+}
+
+.page-desc a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EDF6F9;
+}
+
+.log-in-link {
+  position: absolute;
+  top: 15rem;
+}
+
+.page-desc button {
+  position: absolute;
+  top: 14.7rem;
+  left: 8rem;
+  width: 60%;
+  height: 22%;
+}
+
+.sign-up-link {
+  justify-content: center;
+}
